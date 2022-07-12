@@ -1,0 +1,1 @@
+[Errno 2] No such file or directory: '/vtti/Projects03/451600/Data/Dump/Intersection_videos/Batch 1/intersection_video_LG.csv'

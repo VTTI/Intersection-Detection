@@ -1,0 +1,12 @@
+BACKBONE: resnext50
+BATCH_SIZE: 32
+CUSTOM_IMAGES_PATH: data/test
+EPOCHS: 200
+INT_DIR: data/Intersection
+LOG_STEP: 50
+LR: 0.001
+MODEL: resnext50
+NONINT_DIR: data/Non-Intersection
+OPTIMIZER: SGD
+OUTPUT_DIR: output/baseline
+RESIZE_SHAPE: (240, 360)
