@@ -35,7 +35,11 @@ Organize the data as follows in the repository. We use a custom dataset  70/20/1
 ./
  |__ data
         |__ Intersection
+            |_Day
+            |_Night
         |__ Non-Intersection
+            |_Day
+            |_Night
         
 </pre>
 
