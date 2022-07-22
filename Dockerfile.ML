@@ -26,7 +26,7 @@ RUN export CUDA_VISIBLE_DEVICES=0,1,2,3
 RUN apt-get install ffmpeg libsm6 libxext6 -y
 RUN apt-get install vim -y
 # Install additional packages
-RUN pip3 install opencv-python Shapely matplotlib scipy tqdm scikit_learn tensorboard pillow jupyterlab PyYAML seaborn segmentation-models-pytorch
+RUN pip3 install opencv-python Shapely matplotlib scipy tqdm scikit_learn tensorboard pillow jupyterlab PyYAML seaborn segmentation-models-pytorch grad-cam
 WORKDIR /opt/app
 
 
