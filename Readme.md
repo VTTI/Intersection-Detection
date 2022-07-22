@@ -35,13 +35,16 @@ Organize the data as follows in the repository. We use a custom dataset  70/20/1
 ./
  |__ data
         |__ Intersection
-            |_Day
-            |_Night
+            |_Front_videos
+                |_Day
+                |_Night
         |__ Non-Intersection
-            |_Day
-            |_Night
+            |_Front_Videos
+                |_Day
+                |_Night
         
 </pre>
+You may have as many next directories like "Front_videos" the code will be able to pick up the necessary data as long as the structure as shown.
 
 ## Models
 
